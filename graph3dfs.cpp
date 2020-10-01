@@ -47,7 +47,7 @@ int main()
 	int* vis=new int[r];
 	for(int i=0;i<r;i++){
 		vis[i]=0;
-	}
+	 }
 	
 dfs(g,r,0,vis);
 	
